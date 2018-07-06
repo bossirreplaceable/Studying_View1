@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/c_between"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:onClick="betweenAnim"
+        android:text="补间动画" />
+
+    <Button
+        android:id="@+id/c_anim1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:onClick="propertyAnim1"
+        android:text="简单属性动画"
+        android:layout_marginLeft="30dp" />
+    <Button
+        android:id="@+id/c_anim2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:onClick="anim_ofFloat"
+        android:text="平移"
+        android:layout_marginLeft="30dp" />
+    <Button
+        android:id="@+id/c_anim3"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:onClick="anim_ofFloat2"
+        android:text="ofFloat动画"
+        android:layout_marginLeft="30dp" />
+    <Button
+        android:id="@+id/c_anim4"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:onClick="anim_More"
+        android:text="多动画—监听"
+        android:layout_marginLeft="30dp" />
+
+    <Button
+        android:id="@+id/c_anim5"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:onClick="anim_Holder"
+        android:text="多动画-Holder"
+        android:layout_marginLeft="30dp" />
+
+    <Button
+        android:id="@+id/c_anim6"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:onClick="anim_Set"
+        android:text="动画集合"
+        android:layout_marginLeft="30dp" />
+
+
+
+</LinearLayout>
